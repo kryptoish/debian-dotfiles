@@ -1,0 +1,12 @@
+[Unit]
+Description=Symlink Vesktop Flatpak Discord IPC Socket
+After=default.target
+
+[Service]
+Type=oneshot
+ExecStartPre=/bin/mkdir -p %t/.flatpak/dev.vencord.Vesktop/xdg-run
+ExecStart=/bin/ln -sf %t/.flatpak/dev.vencord.Vesktop/xdg-run/discord-ipc-0 %t/discord-ipc-0
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target

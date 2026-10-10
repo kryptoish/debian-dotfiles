@@ -1,0 +1,13 @@
+[alias]
+	co = checkout
+[difftool "zed"]
+	cmd = flatpak run dev.zed.Zed --wait --diff $LOCAL $REMOTE
+[diff]
+	tool = zed
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[user]
+	name = Krish Thakur
+	email = krish_thakur7@icloud.com
+[init]
+	defaultBranch = main

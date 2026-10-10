@@ -1,0 +1,12 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/Cobalt2.toml"
+]
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+
+[window]
+opacity = 0.85
+blur = true
+

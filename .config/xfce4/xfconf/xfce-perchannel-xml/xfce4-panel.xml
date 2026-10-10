@@ -1,0 +1,216 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="26"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="1"/>
+        <value type="int" value="13"/>
+        <value type="int" value="6"/>
+        <value type="int" value="11"/>
+        <value type="int" value="19"/>
+        <value type="int" value="7"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="20"/>
+        <value type="int" value="10"/>
+        <value type="int" value="12"/>
+      </property>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="border-width" type="uint" value="1"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="background-image" type="string" value="file:///home/krish/Downloads/wallpaper.png"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.050980392156862744"/>
+        <value type="double" value="0.082352941176470587"/>
+        <value type="double" value="0.066666666666666666"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="true"/>
+      <property name="show-tooltips" type="bool" value="true"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="false"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (67%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (57%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (34%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (64%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (58%)"/>
+        <value type="string" value="wi-fi network connection “krish’s iphone :)” active: krish’s iphone :) (78%)"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="notes"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (46%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (62%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (44%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (42%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (33%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (73%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (65%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (71%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (74%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (53%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (56%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (48%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (55%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (52%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (51%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (54%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (49%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (50%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (72%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (40%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (47%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (66%)"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (41%)"/>
+        <value type="string" value="polkit-mate-authentication-agent-1"/>
+        <value type="string" value="wi-fi network connection “ubcsecure” active: ubcsecure (63%)"/>
+        <value type="string" value="no network connection"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="Slack_status_icon_1"/>
+        <value type="string" value="vesktop_status_icon_1"/>
+        <value type="string" value="discord_status_icon_1"/>
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-8" type="string" value="clock">
+      <property name="digital-time-format" type="string" value="%I:%M %p"/>
+      <property name="mode" type="uint" value="2"/>
+    </property>
+    <property name="plugin-9" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-10" type="string" value="actions"/>
+    <property name="plugin-19" type="string" value="battery"/>
+    <property name="plugin-20" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="known-players" type="string" value="firefox-esr;spotify"/>
+      <property name="multimedia-keys-to-all" type="bool" value="false"/>
+      <property name="enable-wnck" type="bool" value="false"/>
+    </property>
+    <property name="plugin-1" type="string" value="cpugraph">
+      <property name="update-interval" type="int" value="2"/>
+      <property name="time-scale" type="int" value="0"/>
+      <property name="size" type="int" value="16"/>
+      <property name="mode" type="int" value="1"/>
+      <property name="color-mode" type="int" value="0"/>
+      <property name="frame" type="int" value="0"/>
+      <property name="border" type="int" value="1"/>
+      <property name="bars" type="int" value="1"/>
+      <property name="per-core" type="int" value="0"/>
+      <property name="tracked-core" type="int" value="0"/>
+      <property name="in-terminal" type="int" value="1"/>
+      <property name="startup-notification" type="int" value="0"/>
+      <property name="load-threshold" type="int" value="0"/>
+      <property name="smt-stats" type="int" value="0"/>
+      <property name="smt-issues" type="int" value="0"/>
+      <property name="per-core-spacing" type="int" value="1"/>
+      <property name="command" type="string" value=""/>
+      <property name="background" type="array">
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+        <value type="double" value="0"/>
+      </property>
+      <property name="foreground-1" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-2" type="array">
+        <value type="double" value="1"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-3" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="smt-issues-color" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-system" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-user" type="array">
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="0.40000000000000002"/>
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-nice" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.80000000000000004"/>
+        <value type="double" value="0.20000000000000001"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-iowait" type="array">
+        <value type="double" value="0.20000000000000001"/>
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.40000000000000002"/>
+        <value type="double" value="1"/>
+      </property>
+    </property>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="false"/>
+    </property>
+    <property name="plugin-12" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="notes" type="empty">
+      <property name="global" type="empty">
+        <property name="version" type="string" value="1.11.1"/>
+      </property>
+    </property>
+  </property>
+</channel>
